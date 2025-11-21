@@ -123,7 +123,7 @@ function App() {
               name="name"
               value={formData.name}
               onChange={handleInputChange}
-              placeholder="Digite o seu nome"
+              placeholder="Digita o teu nome"
               className="form-input"
             />
           </div>
@@ -151,14 +151,14 @@ function App() {
 
           {formData.selectedOption === "Outra" && (
             <div className="form-group outro-field">
-              <label htmlFor="otherText">Especifique sua opção</label>
+              <label htmlFor="otherText">Dá o teu palpite</label>
               <input
                 type="text"
                 id="otherText"
                 name="otherText"
                 value={formData.otherText}
                 onChange={handleInputChange}
-                placeholder="Digite sua opção personalizada"
+                placeholder="Escreve o teu palpite"
                 className="form-input"
               />
             </div>
